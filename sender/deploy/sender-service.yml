@@ -1,0 +1,11 @@
+apiVersion: v1
+kind: Service
+metadata:
+  name: sender-service
+spec:
+  type: LoadBalancer
+  selector:
+    app: sender
+  ports:
+    - protocol: TCP
+      port: 8080

@@ -1,0 +1,21 @@
+networks:
+  test-network:
+    driver: bridge
+
+services:
+  sender-service:
+    image: sender
+    build:
+      context: ./sender
+      dockerfile: ./deploy/Dockerfile
+    networks:
+      - test-network
+    ports:
+      - "8001:8080"
+  receiver-service:
+    image: receiver
+    build:
+      context: ./receiver
+      dockerfile: ./deploy/Dockerfile
+    networks:
+      - test-network

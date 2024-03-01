@@ -1,0 +1,5 @@
+1. irodalomkutatas
+2. tesztalkalmazas irasa, lancok
+3. horizontal pod autoscaler config
+4. tesztek vegzese
+5. megoldasok javaslasa

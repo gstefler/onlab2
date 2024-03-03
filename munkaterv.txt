@@ -1,0 +1,17 @@
+Feladat/téma címe: A Kubernetes és a szolgáltatáshálók (service mesh) hálózati kérdései
+
+Tervezett munkafázisok a félév során:
+1-4. oktatási hét:
+  Irodalomkutatas: Kubernetes, skálázás 
+4-6. oktatási hét:
+  Kubernetes nélkül, dockerben üzembe helyezhető tesztalkalmazás létrehozása, mely láncban önmagát képes hívni.
+6-9. oktatási hét:
+  A dockeres alkalmazás Kubernetesben való futtatása és skálázása
+9-11. oktatási hét:
+  A skálázás tesztelése, különféle terhelések mellett való viskelkedésének vizsgálata.
+11. oktatási hét:
+  Skálázási megoldások dokumentálása, javaslálsa
+12-13. oktatási hét:
+  Végleges írásbeli beszámoló elkészítése.
+14. oktatási hét:
+  Szóbeli előadás elkészítése, gyakorlása
